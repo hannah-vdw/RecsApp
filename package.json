@@ -1,0 +1,15 @@
+{
+  "name": "recs_app",
+  "version": "1.0.0",
+  "description": "Recommendations List App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hannah van den Wijngaard",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
