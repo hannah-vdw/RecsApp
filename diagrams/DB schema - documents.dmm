@@ -34,7 +34,7 @@
 				},
 				{
 					"id": "907c5d41-2434-421e-8964-dae43c8a59bb",
-					"name": "Books",
+					"name": "books",
 					"datatype": "objectId",
 					"param": "",
 					"pk": false,
@@ -127,7 +127,7 @@
 				},
 				{
 					"id": "a5ec847b-f80b-407a-9da6-b833c55efbeb",
-					"name": "recommender",
+					"name": "recommender_id",
 					"datatype": "objectId",
 					"param": "",
 					"pk": false,
@@ -138,6 +138,20 @@
 					"fk": true,
 					"ref": "recommender",
 					"list": true
+				},
+				{
+					"id": "452e7bc6-f5f0-4fa1-864b-27faad256983",
+					"name": "author_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
 				}
 			],
 			"relations": [
@@ -310,7 +324,7 @@
 				},
 				{
 					"id": "558be0d9-9e25-4a5f-9703-6c561b698cce",
-					"name": "platforms",
+					"name": "platforms_id",
 					"datatype": "objectId",
 					"param": "",
 					"pk": false,
@@ -324,7 +338,7 @@
 				},
 				{
 					"id": "5141e076-505a-4fd7-88e7-efacf809f51d",
-					"name": "recommender",
+					"name": "recommender_id",
 					"datatype": "objectId",
 					"param": "",
 					"pk": false,
@@ -609,8 +623,9 @@
 		"def_validationAction": "na",
 		"def_collation": "",
 		"def_others": "",
-		"filePath": "/Users/vandenwijngaardh/Desktop/recs_app/diagrams/DB schema - documents.dmm",
-		"lastSaved": "Wed Oct 27 2021 14:09:57 GMT+0100 (British Summer Time)"
+		"filePath": "/Users/vandenwijngaardh/Desktop/recs-app/diagrams/DB schema - documents.dmm",
+		"lastSaved": "31/10/2021",
+		"writeFileParam": false
 	},
 	"otherObjects": {},
 	"diagrams": {
@@ -652,7 +667,7 @@
 					"referencedItemId": "c44cf26f-d353-42d7-9ca7-48bf6c10cfb8",
 					"x": 397,
 					"y": 370,
-					"gHeight": 123,
+					"gHeight": 124,
 					"gWidth": 310,
 					"color": "#ffffff",
 					"background": "#03a9f4",

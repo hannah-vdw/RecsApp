@@ -1,5 +1,9 @@
 # Recommendations List App
 
+## This app uses:
+node v16.10.0 with npm v8.1.3
+
+## Technologies
 db - Mongodb
     database schema
 Express & Node server 
@@ -9,21 +13,21 @@ React FE
     list of recommendations
     styled components for styling
 
-# MVP: 
+## MVP: 
 - list of things to read/watch/do
 - add a recommendation
 - filter results
 
+## Stretch goals
 - tags
 - timeline? calendar? 
 
-# steps: 
-    now:
+## Steps: 
 [x]    make a github repository
 [x]    express js server - hello world 
-[]    design a database schema
-
-    future:
+[x]    design a database schema
+[x]    construct a test db in mongodb
+[x]    add one test field
+[]    connect test db to the express js server
 []    construct the db in mongodb
-[]    add one field
-[]    connect db to the express js server
+[]    send data with API call
