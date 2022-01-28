@@ -1,3 +1,4 @@
 /node_modules
 .DS_Store
 /diagrams/notes
+.env
